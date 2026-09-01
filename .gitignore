@@ -216,3 +216,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ---- home-gpu-server ----
+# Ollama 모델 데이터 (13GB+)
+data/
+
+# 시크릿
+*.key
+secrets/
+
+# Docker 로컬 오버라이드
+docker-compose.override.yml
+compose.override.yaml
